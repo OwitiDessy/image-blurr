@@ -2,6 +2,7 @@ class Image #concept of an image
   attr_accessor :array #allow users to get (reader) or change (writer) content of my object aka new image
 
   def initialize(array) #Initialize specifies attributes of object (aka user must provide when creating new image)
+    
     @array = array #@array allows the variable "array" (aka the argument) to live outside the initialize method
   end  
 
