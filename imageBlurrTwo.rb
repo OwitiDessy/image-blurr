@@ -6,13 +6,11 @@ class Image
   end  
 
   def output_image
-      @array.each do |block| #iterating through each row aka block(i)
-        block.each do |column| #iterating through each column (j)
+      @array.each do |block| #iterating through each row aka block
+        block.each do |column| #iterating through each column 
       end    
-        #(See pg 161 "uppercase letters" to make changes to item.)
-        # We will do something to the item in a row and column (i,j) then assign a variable name to the item(i,j)change
-        #e.g. the first item in the 1st row (i) and 1st column  aka index [0][0] is 0
-        #e.g. the 2nd item in the 
+        #e.g. the first item in (in the Image.new array) the 1st row and 1st column aka index [0][0] is 0
+        #e.g. the 4th item (in the Image.new array) in the 3rd row and 4th column aka index [2][3] is 1
           puts block.join 
       end       
   end 
