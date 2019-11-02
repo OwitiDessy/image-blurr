@@ -7,8 +7,8 @@ class Image #concept of an image
   end  
 
   def output_image
-    # @array=Image.new(4){Image.new(4)} #only use this when you don`t have a specific example aka specific object
-      @array.each do |block| #iterating through each block
+    # @array=Image.new(4){Image.new(4)} #only use this when you don`t have an instance aka a specific example aka specific object
+      @array.each do |block| #iterating through each block aka row
         #block.each do |item| # only use when iterating through each item within a block
           #puts item #only use when you want to print each item within a block
         #end #Don't forget to unclude this end when iterating through each item within each block
